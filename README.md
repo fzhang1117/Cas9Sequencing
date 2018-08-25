@@ -53,7 +53,7 @@ All the result are saved in the dir ./fl_result
 
 ```
 *_seqscan.txt: counts of differenty types of nulceotide of each sites in edit region
-*_prductsum.txt: products and their counts of given edit sites
+*_productsum.txt: products and their counts of given edit sites
 ```
 
 
