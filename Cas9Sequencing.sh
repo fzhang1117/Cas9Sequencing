@@ -1,9 +1,15 @@
 #! /bin/sh
+#### parameter ####
+## pattern: the Regular expression to search edit region
+## pattern_indel: the Regular expression to search idel from unregonized reads
+## length: character length which 'pattern' included
+## Q: sequencing quanlity, if Q >= 0, which sequencing quanlity below the threshold will be replaced as 'N'
 
 pattern=$1
 pattern_indel=$2
 length=$3
 Q=$4
+
 cd ./fastq
 
 gunzip *
